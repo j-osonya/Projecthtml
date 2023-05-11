@@ -1,0 +1,224 @@
+ @charset "utf-8";
+/* CSS Document */
+
+#container{
+	height: 100%;
+	width: 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: medium;
+	background-color:#CCC;
+	margin-top:0;
+}
+
+#info{
+	float: right;
+	height:150px;
+}
+
+#header{
+	background-color: #17252A;
+	color: #3AAFA9;
+	height: 150px;
+	font-size: x-large;
+	font-weight: bolder;
+	text-align: center;
+	font-family:Verdana, Geneva, sans-serif;
+	background-image:url("Images/bg.jpg");
+	filter: blur(40px); 
+}
+
+#header h1{
+	font-size:34px;
+	
+} 
+
+
+#header h2{
+	font-size:medium;
+}
+
+#menu{
+	background-color: #CCC;
+	text-align:center;
+	
+}
+
+#mainbody h1{
+	background-color: #;
+	height: auto;
+	text-align:center;
+	font-size:50px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-decoration: underline;
+	color: #F00;
+	margin: 0px;
+}
+
+mainbody h2{
+}
+
+#mainbody p{
+	text-align:center;
+	color: #000;
+	letter-spacing: 1.5px;
+	margin: 0px;
+}
+
+.btn-What is cyber security?{
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bolder;
+	height:40px;
+	width:21%;
+	font-style: italic;
+	font-size: small;
+	margin-top: 10px;
+	margin-right: 1%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border: 3px solid #000;
+	background-color:#FFF;
+}
+
+.btn-What is cyber security?:hover{
+	background-color:#73746B;
+	color: #f4f4f4;
+}
+
+.btn-home{
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bolder;
+	height:40px;
+	width:21%;
+	font-style: italic;
+	font-size: small;
+	margin-top: 10px;
+	margin-right: 1%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border: 3px solid #3AAFA9;
+	background-color:#FFF;
+}
+
+.btn-home:hover{
+	background-color:#73746B;
+	color: #f4f4f4;
+}
+
+.btn-Drawbacks{
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bolder;
+	height:40px;
+	width:21%;
+	font-style: italic;
+	font-size: small;
+	margin-top: 10px;
+	margin-right: 1%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border: 3px solid #73746B;
+	background-color:#FFF;
+}
+
+.btn-Drawbacks:hover{
+	background-color:#73746B;
+	color:#f4f4f4
+}
+
+.btn-Protection{
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bolder;
+	height:40px;
+	width:21%;
+	font-style: italic;
+	font-size: small;
+	margin-top: 10px;
+	margin-right: 1%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border: 3px solid #000;
+	background-color:#FFF;
+}
+
+.btn-Protection:hover{
+	background-color:#73746B;
+	color: #f4f4f4;
+}
+
+
+#logo{
+	height:150px;
+	float:left;
+}
+
+#medialogo{
+	float:right;
+}
+
+#medialogos {
+	float:right;
+}
+
+#image{
+	width: 200px;
+	float: left;
+}
+
+#mainbody{
+	background-color: #CCC;
+}
+
+#footer{
+	background-color: #396;
+	height:auto;
+	font-size: small;
+	text-align: center;
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+* {
+	box-sizing: border-box;
+	margin-top: auto;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#title h2 {
+	font-size:39px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
